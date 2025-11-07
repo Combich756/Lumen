@@ -1,3 +1,9 @@
 # Lumen
-EdTech
-здесь, вроде как, интегриру.т гигачат с тг ботом --> https://rutube.ru/video/522d8d87e4224a2701e9a7bf8604296f/?r=plemwd но здесь может быть устаревший варик, поэтому все чекаем и проверяем
+Основной файл - Lumen_bot.py
+Чтобы запустить его локально (на Linux-системе) нужно:
+в терминале последовательно запустить:
+sudo apt update && sudo apt install python3-venv python3-full -y
+python3 -m venv tg_bot_env
+source tg_bot_env/bin/activate
+pip install --upgrade pip
+pip install python-telegram-bot langchain-gigachat langgraph python-dotenv
